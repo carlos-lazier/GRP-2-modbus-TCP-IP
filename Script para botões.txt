@@ -26,7 +26,7 @@ Public Class Form1
            
     Private Sub btnDesconectar_Click(sender As Object, e As EventArgs) Handles btnDesconectar.Click
         ModClient.Disconnect()
-        lblSituação.Text = "Disconectado."
+        lblSituação.Text = "Desconectado."
         btnConectar.Enabled = True
         btnDesconectar.Enabled = False
         grpLeitura.Enabled = False
